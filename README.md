@@ -14,6 +14,6 @@ And if you want to reset the timer, you can also:
 
 Ah! The first added (or last reseted) date is accessible at:
 
-    timer.time();
+    timer.first;
 
 That's all the API.
