@@ -6,7 +6,7 @@ Well, just...
     
 And then simply...
 
-    console.log("Execution at: " + timer.time());
+    console.log("Execution at MILLISECOND: " + timer.time());
 
 And if you want to reset the timer, you can also:
 
