@@ -1,5 +1,5 @@
 {
-  "name": "simple-timer",
+  "name": "just-a-timer",
   "version": "1.0.0",
   "description": "Simplest timer ever for JavaScript",
   "main": "src/timer.js",
