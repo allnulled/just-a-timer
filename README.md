@@ -1,19 +1,25 @@
-# Simple-Timer
+# Simple Timer
 
-Well, just...
+Let's keep it simple.
 
-    const timer = new Timer()
-    
-And then simply...
+1. Import the simple-timer module to your project:
 
-    console.log("Execution at MILLISECOND: " + timer.time())
+       ~$ npm install simple-timer --save
 
-And if you want to reset the timer, you can also:
+2. Import the simple-timer module to your code:
 
-    timer.reset()
+       var Timer = require("simple-timer");
 
-Ah! The first added (or last reseted) date is accessible at:
+3. Create a new instance of the timer:
 
-    timer.first
+       var mytimer = new Timer();
 
-That's all the API.
+4. Get the time that has passed since the timer was created:
+
+       console.log(mytimer.time());
+
+5. If you need to reset the timer, you can do it like:
+
+       mytimer.reset()
+
+That is all. Simple?
